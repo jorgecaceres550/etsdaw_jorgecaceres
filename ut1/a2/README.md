@@ -19,6 +19,7 @@ que tiene 11 jugadores
 3. mediocampistas
 4. delanteros
 
+<<<<<<< HEAD
 *este texto esta en cursiva
 
 **este texto esta en negrita
@@ -31,3 +32,26 @@ que tiene 11 jugadores
 
 ! 
 
+=======
+**Mi equipo favorito es el Barcelona**
+
+[Si quieres saber más del futbol](https://es.wikipedia.org/wiki/F%C3%BAtbol)
+
+
+*este texto esta en cursiva*
+
+**este texto esta en negrita**
+
+##imagen
+
+![Gato](./img/gato.jpg)
+
+####Código
+
+```python
+print("hola mundo")
+```
+
+####Cita
+> "El talento depende de la inspiración, pero el esfuerzo depende de cada uno"
+>>>>>>> 2d80d0353428215ca5995d7ac74a29cc22e51fbe
