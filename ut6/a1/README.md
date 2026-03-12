@@ -22,18 +22,13 @@ Si alguna de las notas no es numérica o está fuera del rango permitido, se deb
 
 Ejemplo de funcionamiento esperado:
 
-| ID   | ENTRADA                   | RESULTADO | TIPO DE CASO |
-|------|---------------------------|-----------|--------------|
-| CP1  | [6.7,7,8]                 | 9,3       | caso normal  |
-| CP2  | [10,7,8]                  | 8,33      | caso normal  |
-| CP3  | [4,7,8]                   | 6,33      | caso normal  |
-| CP4  | [90,2,7]                  | Error     | caso erróneo |
-| CP5  | []                        | Error     | Caso erróneo |
-| CP6  | ['hola','soy','una nota'] | Error     | Caso erróneo |
-| CP7  | [0,10]                    | 5         | Caso límite  |
-| CP8  | [10]                      | 10        | Caso límite  |
-| CP9  | ['10']                    | Error     | Caso erróneo |
-| CP10 | [6,7,8]                   | 7         | Caso normal  |
+|   ENTRADA  | RESULTADO ESPERADO |
+|:----------:|:------------------:|
+|   [6,7,8]  |          7         |
+| [10,9,8,7] |         8,5        |
+|     []     |        Error       |
+|   [5,12]   |        Error       |
+|  [7,"a",5] |        Error       |
 
 
 # Trabajo a realizar
@@ -56,19 +51,18 @@ tipo de caso de prueba
 
 Debes entregar una tabla con el siguiente formato:
 
-|  ID | ENTRADA | RESULTADO | TIPO DE CASO |
-|:---:|:-------:|:---------:|:------------:|
-| CP1 |         |           |              |
-| CP2 |         |           |              |
-| CP3 |         |           |              |
-| CP4 |         |           |              |
-| CP5 |         |           |              |
-| CP6 |         |           |              |
-| CP7 |         |           |              |
-| CP8 |         |           |              |
-| CP9 |         |           |              |
-| CP10|         |           |              |
-
+| ID   | ENTRADA                   | RESULTADO | TIPO DE CASO |
+|------|---------------------------|-----------|--------------|
+| CP1  | [6.7,7,8]                 | 9,3       | caso normal  |
+| CP2  | [10,7,8]                  | 8,33      | caso normal  |
+| CP3  | [4,7,8]                   | 6,33      | caso normal  |
+| CP4  | [90,2,7]                  | Error     | caso erróneo |
+| CP5  | []                        | Error     | Caso erróneo |
+| CP6  | ['hola','soy','una nota'] | Error     | Caso erróneo |
+| CP7  | [0,10]                    | 5         | Caso límite  |
+| CP8  | [10]                      | 10        | Caso límite  |
+| CP9  | ['10']                    | Error     | Caso erróneo |
+| CP10 | [6,7,8]                   | 7         | Caso normal  |
 Tipos de caso posibles:
 
 - Caso normal
