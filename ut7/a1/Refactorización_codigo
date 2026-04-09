@@ -1,0 +1,20 @@
+#Cambiar el nombre a las variables
+
+1. Los nombres de las variables no son descriptivos lo que dificulta la compresión del código.
+la variable n se podría llamar nombre_producto,p producto_precio y c producto_cantidad.
+
+2. En el bucle for cambiar la p por producto.
+
+3. En el subtotal efectuar el cambio anteriormente mencionado en el punto 1.
+
+#Refactorización del código
+
+1. subtotal = subtotal - (subtotal * 0.1) cambiarla por subtotal- =  (subtotal * 0.1)
+
+2. Se podría crear un método que se llame añadir_produto cuya función sería agregar el producto en la lista productos.
+
+3. Se podría crear un método mágico __repr__ para poder hacer la represacion del producto y quitar los print para que el código quede más limpio.
+
+4. Se podría crear un método llamado calcular_envio que calcule el subtotal, si es mayor que 100 no sumarle nada, si es menor sumarle una variable llamada "coste_envio" y su valor sea 5.
+
+
