@@ -7,6 +7,10 @@ la variable n se podría llamar nombre_producto,p producto_precio y c producto_c
 
 3. En el subtotal efectuar el cambio anteriormente mencionado en el punto 1.
 
+4. Añadir al constructor de la clase el atributo productos y que por defecto sea una lista vacía.
+
+5. se podría crear una variable denominada "cantidad_mínima" para que sea el minimo de productos para que pueda recibir el descuento del 10 %, también se podría crear variables que sean "subtotal_minimo" para que el valor sea 100, lo mismo se podría la variable "Total_vip_umbral" y que su valor sea 500.
+
 #Refactorización del código
 
 1. subtotal = subtotal - (subtotal * 0.1) cambiarla por subtotal- =  (subtotal * 0.1)
@@ -16,5 +20,13 @@ la variable n se podría llamar nombre_producto,p producto_precio y c producto_c
 3. Se podría crear un método mágico __repr__ para poder hacer la represacion del producto y quitar los print para que el código quede más limpio.
 
 4. Se podría crear un método llamado calcular_envio que calcule el subtotal, si es mayor que 100 no sumarle nada, si es menor sumarle una variable llamada "coste_envio" y su valor sea 5.
+
+5. Se podría crear un método denominado "calcular_total" que haga los calculos del bucle, facilitando así la comprensión del código.
+
+6. Se podría añadir un método denominado "cliente_vip" que calcule si es un cliente vip o no.
+
+##Conclusión
+
+El estado actual del código no es optimo ya que a pesar de ser funcional la legibilidad es baja lo que dificultaría en futuras actualizaciones o ampliaciones
 
 
