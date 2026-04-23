@@ -45,16 +45,3 @@ class Carrito:
     def es_cliente_vip(self, total):
         return total > self.TOTAL_VIP_UMBRAL
 
-# --- Ejecución del programa ---
-
-mi_carrito = Carrito()
-mi_carrito.añadir_producto(Producto("Teclado", 30, 2))
-#mi_carrito.añadir_producto(Producto("Raton", 15, 3))
-mi_carrito.añadir_producto(Producto("Monitor", 200, 1))
-
-total_pedido = mi_carrito.calcular_total()
-
-print(f"TOTAL PEDIDO: {total_pedido}€")
-
-if mi_carrito.es_cliente_vip(total_pedido):
-    print("Estado: Cliente VIP")
